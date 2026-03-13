@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Deepak Shopping Website</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#eaeaea;
+}
+
+/* Navbar */
+
+.navbar{
+background:#131921;
+color:white;
+display:flex;
+align-items:center;
+padding:10px;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+margin-right:20px;
+}
+
+.search input{
+width:300px;
+padding:8px;
+}
+
+.menu{
+margin-left:auto;
+}
+
+.menu a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+/* Product section */
+
+.section{
+padding:20px;
+}
+
+.products{
+display:flex;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.product{
+background:white;
+width:200px;
+padding:10px;
+text-align:center;
+border-radius:6px;
+box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+.product img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<div class="navbar">
+
+<div class="logo">Deepak's Shop</div>
+
+<div class="search">
+<input type="text" placeholder="Search products">
+</div>
+
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Deals</a>
+<a href="#">Categories</a>
+<a href="#">Cart</a>
+</div>
+
+</div>
+
+<!-- Electronics -->
+
+<div class="section">
+<h2>Electronics</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202511/03/GPNFnHZb4ktycTrv.png">
+<h4>Smartphone</h4>
+<p>₹15000</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSRqJZ0LaN5m_obvbFWadkKQsyjZIUjUg1XlByszMumDvzCxxnTOTtIaGWGNToLDIxYIrQXi1k_mzf-40Ev0y4ZKw7nmPDkJo_GOyNvO3QTmqQzG32mHVN5EQ&usqp=CAc">
+<h4>Laptop</h4>
+<p>₹55000</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTJik469VWtHDxHl-fJzq1G1a8HqBnjoyaAmrup87ZqygXQumEz8cgm3i8--TAOj--55niKr6a85DN7m2ivEEKrn9Uwc_VwFf6q1FNjZchj70fWvYygwirjfm-snZH3xq2bWvyE3pB-u0c&usqp=CAc">
+<h4>Headphones</h4>
+<p>₹2000</p>
+</div>
+
+</div>
+</div>
+
+<!-- Fashion -->
+
+<div class="section">
+<h2>Fashion</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://caslay.in/cdn/shop/files/4M6A6955_aa3135f0-e5bb-4ab9-8961-b0f66c41f144.jpg?v=1761468045&width=1946">
+<h4>T-Shirt</h4>
+<p>₹799</p>
+</div>
+
+<div class="product">
+<img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSGh4o9Qg4sW39L0BQUBSJG9Yl00nrLyn4BZi5CX_dfAl5Zzp34P0KWGE_PfzuJo9KE56kduboBluTBMfihhHhMyawhYW-5Zq-AJGtmIAHKRLxVi6JfcJNo-TihgOAno57VW-frgyA&usqp=CAc">
+<h4>Shoes</h4>
+<p>₹2499</p>
+</div>
+
+<div class="product">
+<img src="https://i.pinimg.com/736x/3c/61/0f/3c610f8f8ebd7867149957e2434b3851.jpg">
+<h4>Jacket</h4>
+<p>₹1999</p>
+</div>
+
+</div>
+</div>
+
+<!-- Deals -->
+
+<div class="section">
+<h2>Today's Special Deals</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://i.pinimg.com/736x/93/f4/85/93f48511615b3612962658043e50a0e0.jpg">
+<h4>Smart Watch</h4>
+<p>₹3999</p>
+</div>
+
+<div class="product">
+<img src="https://i.pinimg.com/1200x/11/39/80/1139804b71fcc90f2eb5e799973a54a1.jpg">
+<h4>Bluetooth Speaker</h4>
+<p>₹1499</p>
+</div>
+
+<div class="product">
+<img src="https://i.pinimg.com/1200x/20/69/0d/20690dd093157ed7a3786add6903ade5.jpg">
+<h4>Power Bank</h4>
+<p>₹999</p>
+</div>
+
+</div>
+</div>
+
+<!-- Home Essentials -->
+
+<div class="section">
+<h2>Home Essentials</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://i.pinimg.com/1200x/c8/26/b4/c826b4808d9ccd4cbcd87225db8205c5.jpg">
+<h4>Table Lamp</h4>
+<p>₹899</p>
+</div>
+
+<div class="product">
+<img src="https://i.pinimg.com/1200x/e6/d6/ff/e6d6ff5c491b474c1bc438db85d249b3.jpg">
+<h4>Wall Clock</h4>
+<p>₹699</p>
+</div>
+
+<div class="product">
+<img src="https://i.pinimg.com/1200x/c9/24/f3/c924f36946192510901cca304a935647.jpg">
+<h4>Chair</h4>
+<p>₹2499</p>
+</div>
+
+</div>
+</div>
+<footer style="background:#131921;color:white;text-align:center;padding:10px;">
+© 2026 Deepak Store
+</footer>
+</body>
+</html>
